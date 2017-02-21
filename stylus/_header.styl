@@ -1,0 +1,81 @@
+header
+  background-color #87b448
+  width 100%
+  text-align center
+  border-bottom 2px solid #71973c
+
+.header-wrapper
+  width 100%
+  max-width 1440px
+  min-width 970px
+  background-color #87b448
+
+.header
+  width 100%
+  padding 14px
+
+.site-logo
+  width 130px
+  height 40px
+  z-index 2
+  cursor pointer
+
+.search-field
+  position relative
+  margin 0 30px
+  width 100%
+
+  img
+    position absolute
+    cursor pointer
+    left 10px
+    top 8px
+
+.search
+  font-family 'Proxima Nova', sans-serif
+  padding 0 38px
+  height 34px
+  border-radius 2px
+  width 100%
+  background-color #73993d
+  outline none
+  border 0
+  color #ffffff
+
+  &:focus
+    background-color #ffffff
+    color #73993d
+
+.search::-webkit-input-placeholder
+  color #ffffff
+.search::-moz-placeholder
+  color #ffffff
+.search:-ms-input-placeholder
+  color #ffffff
+.search:-moz-placeholder
+  color #ffffff
+
+
+.nav
+  li:first-child
+    margin-right 18px
+  li:last-child
+    margin-right 28px
+
+.user
+  cursor pointer
+  white-space nowrap
+
+  &-name
+    margin 0 0 0 9px
+
+  &-photo
+    width 32px
+    height 32px
+    border-radius 3px
+
+
+.user:hover
+  .header-user-photo
+    border-radius 50%
+    transition 0.5s
